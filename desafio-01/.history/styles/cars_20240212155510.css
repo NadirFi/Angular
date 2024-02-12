@@ -1,0 +1,12 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.card {
+    width: 720px;
+    border: solid gray;
+    display: flex;
+    flex-direction: row;
+}
