@@ -1,0 +1,39 @@
+<div>
+  <h2>My App</h2>
+  <button>Hello World</button>
+  <ul>
+    @for (item of produtos; track $index) {
+      <li>{{$index}} -- {{item}}</li>
+    }
+    <button (click)="adicionar()">ADICIONAR</button>
+  </ul>
+  @switch (menuType) {
+
+    @case ('user') { <div>
+      <ul>
+        <li>Editar perfil</li>
+        <li>Adicionar cartão</li>
+      </ul>
+    </div> }
+    @case ('admin') { <div>
+      <ul>
+        <li>Editar perfil</li>
+        <li>Adicionar cartão</li>
+        <li>Gerenciar usuarios</li>
+      </ul>
+    </div> }
+    @case ('superuser') { <div>
+      <ul>
+        <li>Editar perfil</li>
+        <li>Adicionar cartão</li>
+        <li>Gerenciar usuarios</li>
+        <li>Gerenciar admins</li>
+      </ul>
+    </div> }
+    @default { <div>Default</div> }
+
+  }
+
+
+</div>
+
