@@ -1,0 +1,203 @@
+{
+  "title": "Você Seria Pirata ou da Marinha?",
+  "questions": [
+    {
+      "id": 1,
+      "question_text": "Qual é o seu maior objetivo na vida?",
+      "options": [
+        {
+          "id": 1,
+          "name": "Proteger a justiça e a paz",
+          "alias": "Marinha"
+        },
+        {
+          "id": 2,
+          "name": "Encontrar o maior tesouro do mundo",
+          "alias": "Pirata"
+        },
+        {
+          "id": 3,
+          "name": "Vingar alguém importante para mim",
+          "alias": "Pirata"
+        },
+        {
+          "id": 4,
+          "name": "Garantir a ordem mundial",
+          "alias": "Marinha"
+        },
+        {
+          "id": 5,
+          "name": "Ser o líder e comandar uma grande organização",
+          "alias": "Marinha"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "question_text": "Como você lida com a autoridade?",
+      "options": [
+        {
+          "id": 1,
+          "name": "Respeito a autoridade e sigo regras",
+          "alias": "Marinha"
+        },
+        {
+          "id": 2,
+          "name": "Desafiar a autoridade e buscar minha liberdade",
+          "alias": "Pirata"
+        },
+        {
+          "id": 3,
+          "name": "Busco reformar as regras para melhorar o sistema",
+          "alias": "Pirata"
+        },
+        {
+          "id": 4,
+          "name": "Obedeço às regras, mas questiono quando necessário",
+          "alias": "Marinha"
+        },
+        {
+          "id": 5,
+          "name": "Sempre busco trabalhar de forma independente",
+          "alias": "Pirata"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "question_text": "Qual desses valores é mais importante para você?",
+      "options": [
+        {
+          "id": 1,
+          "name": "Lealdade à minha causa e à minha equipe",
+          "alias": "Marinha"
+        },
+        {
+          "id": 2,
+          "name": "Liberdade para fazer o que eu quiser",
+          "alias": "Pirata"
+        },
+        {
+          "id": 3,
+          "name": "Proteção aos meus entes queridos a qualquer custo",
+          "alias": "Pirata"
+        },
+        {
+          "id": 4,
+          "name": "Manter a ordem e a harmonia",
+          "alias": "Marinha"
+        },
+        {
+          "id": 5,
+          "name": "Ser parte de uma grande causa e servir ao mundo",
+          "alias": "Marinha"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "question_text": "Como você se sente em relação ao poder?",
+      "options": [
+        {
+          "id": 1,
+          "name": "Poder deve ser usado para manter a ordem e a justiça",
+          "alias": "Marinha"
+        },
+        {
+          "id": 2,
+          "name": "Poder é a chave para alcançar meus próprios sonhos",
+          "alias": "Pirata"
+        },
+        {
+          "id": 3,
+          "name": "Poder deve ser conquistado e não imposto",
+          "alias": "Pirata"
+        },
+        {
+          "id": 4,
+          "name": "Poder é necessário para proteger os inocentes",
+          "alias": "Marinha"
+        },
+        {
+          "id": 5,
+          "name": "Poder é algo que todos devem conquistar livremente",
+          "alias": "Pirata"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "question_text": "O que você faria ao encontrar um inimigo poderoso?",
+      "options": [
+        {
+          "id": 1,
+          "name": "Seguiria as ordens da minha autoridade superior e lutaria com estratégia",
+          "alias": "Marinha"
+        },
+        {
+          "id": 2,
+          "name": "Desafiaria o inimigo diretamente, não me importando com os riscos",
+          "alias": "Pirata"
+        },
+        {
+          "id": 3,
+          "name": "Tentaria negociar e evitar o conflito, se possível",
+          "alias": "Marinha"
+        },
+        {
+          "id": 4,
+          "name": "Formaria uma aliança com outros para derrotar o inimigo",
+          "alias": "Pirata"
+        },
+        {
+          "id": 5,
+          "name": "Usaria todas as minhas habilidades para derrotá-lo de maneira estratégica",
+          "alias": "Marinha"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "question_text": "Como você se sente em relação ao conceito de liberdade?",
+      "options": [
+        {
+          "id": 1,
+          "name": "Liberdade é essencial, mas deve ser equilibrada com a responsabilidade",
+          "alias": "Marinha"
+        },
+        {
+          "id": 2,
+          "name": "Liberdade é fundamental, devo ter o direito de fazer o que quero",
+          "alias": "Pirata"
+        },
+        {
+          "id": 3,
+          "name": "Liberdade é importante, mas ela deve ser limitada pelas leis",
+          "alias": "Marinha"
+        },
+        {
+          "id": 4,
+          "name": "Liberdade total é um sonho que devemos lutar para alcançar",
+          "alias": "Pirata"
+        },
+        {
+          "id": 5,
+          "name": "Liberdade é importante, mas a paz é mais importante",
+          "alias": "Marinha"
+        }
+      ]
+    }
+  ],
+  "results": {
+    "Pirata": {
+      "name": "Pirata",
+      "description": "Você valoriza a liberdade, a aventura e a busca pelo seu próprio sonho. Como um pirata, você se dedica a explorar o mundo em busca do maior tesouro e lutar pela sua liberdade, sem se prender às regras ou à autoridade.",
+      "img": "assets/imgs/pirata.png"
+    },
+    "Marinha": {
+      "name": "Marinha",
+      "description": "Você valoriza a ordem, a justiça e o bem-estar de todos. Como membro da Marinha, seu dever é proteger o mundo e garantir que a paz e a segurança prevaleçam, combatendo os piratas e aqueles que desafiam a lei.",
+      "img": "assets/imgs/marinha.png"
+    }
+  }
+}
